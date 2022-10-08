@@ -1,10 +1,8 @@
+function colorTrace(msg, background, color, jjj) {
+    console.log("%c" + msg, "background:" + background + ";color:" + color);
+}
+
+colorTrace("Test Me", "magenta", "HoneyDew", "hello");
+colorTrace("Hello", "blue", "red");
 
 
-// const words = document.querySelector(".jump").outerText.split('');
-// const wordsDiv = document.querySelector(".jump");
-// wordsDiv.innerHTML = ""
-// words.map((el) => {
-//     wordsDiv.innerHTML += `<span>${el}</span>`;
-// })
-
- 
