@@ -5,22 +5,22 @@ function colorLogger(message_to_display, background, color, other_args) {
 const P = {
     msg: '',
     other_args: '',
-    magenta: function() {
+    magenta() {
         colorLogger(this.msg, "magenta", "black", this.other_args)
     },
-    indigo: function() {
+    indigo() {
         colorLogger(this.msg, "indigo", "black", this.other_args)
     },
-    yellow: function() {
+    yellow() {
         colorLogger(this.msg, "yellow", "black", this.other_args)
     },
-    red: function() {
+    red() {
         colorLogger(this.msg, "red", "black", this.other_args)
     },
-    green: function() {
+    green() {
         colorLogger(this.msg, "green", "black", this.other_args)
     },
-    blue: function() {
+    blue() {
         colorLogger(this.msg, "blue", "black", this.other_args)
     }
   };
